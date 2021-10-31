@@ -11,5 +11,6 @@ namespace JsonPropertyAnalyzer.Definitions.SystemTextJson
         public string? ParameterName => null;
 
         public string AttributeDisplayName => "JsonIgnore";
+        public bool HasParameter => false;
     }
 }

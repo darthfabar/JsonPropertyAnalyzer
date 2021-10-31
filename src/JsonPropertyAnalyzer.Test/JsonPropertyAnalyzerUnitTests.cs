@@ -1,8 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading.Tasks;
 using VerifyCS = JsonPropertyAnalyzer.Test.CSharpCodeFixVerifier<
-    JsonPropertyAnalyzer.ClassWithPropertiesAttributesAnalyzer,
-    JsonPropertyAnalyzer.CodeFixes.JsonPropertyNameCodeFix>;
+    JsonPropertyAnalyzer.SystemTextJsonPropertyAnalyzer,
+    JsonPropertyAnalyzer.CodeFixes.SystemTextJsonAttributesInClassCodeFix>;
 
 namespace JsonPropertyAnalyzer.Test
 {

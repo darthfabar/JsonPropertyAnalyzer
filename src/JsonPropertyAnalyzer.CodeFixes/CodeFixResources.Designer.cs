@@ -77,5 +77,59 @@ namespace JsonPropertyAnalyzer {
                 return ResourceManager.GetString("CodeFixTitleClass", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add JsonPropertyAttributes to all properties in class.
+        /// </summary>
+        internal static string NewtonsoftJsonClassCodeFixTitle {
+            get {
+                return ResourceManager.GetString("NewtonsoftJsonClassCodeFixTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add JsonIgnore to property (Newtonsoft).
+        /// </summary>
+        internal static string NewtonsoftJsonIgnoreCodeFixTitle {
+            get {
+                return ResourceManager.GetString("NewtonsoftJsonIgnoreCodeFixTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add JsonPropertyAttribute to property.
+        /// </summary>
+        internal static string NewtonsoftJsonPropertyCodeFixTitle {
+            get {
+                return ResourceManager.GetString("NewtonsoftJsonPropertyCodeFixTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add JsonPropertyNameAttributes to all properties in class.
+        /// </summary>
+        internal static string SystemTextJsonClassCodeFixTitle {
+            get {
+                return ResourceManager.GetString("SystemTextJsonClassCodeFixTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add JsonIgnore to property (System.Text.Json).
+        /// </summary>
+        internal static string SystemTextJsonIgnoreCodeFixTitle {
+            get {
+                return ResourceManager.GetString("SystemTextJsonIgnoreCodeFixTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add JsonPropertyNameAttribute to property.
+        /// </summary>
+        internal static string SystemTextJsonPropertyCodeFixTitle {
+            get {
+                return ResourceManager.GetString("SystemTextJsonPropertyCodeFixTitle", resourceCulture);
+            }
+        }
     }
 }

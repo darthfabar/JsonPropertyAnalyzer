@@ -11,5 +11,7 @@ namespace JsonPropertyAnalyzer.Definitions.Newtonsoft
         public string? ParameterName => null;
 
         public string AttributeDisplayName => "JsonIgnore";
+
+        public bool HasParameter => false;
     }
 }

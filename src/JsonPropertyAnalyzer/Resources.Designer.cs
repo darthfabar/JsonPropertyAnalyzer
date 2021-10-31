@@ -61,60 +61,6 @@ namespace JsonPropertyAnalyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to All Properties in class should have Json Property Attributes..
-        /// </summary>
-        internal static string AnalyzerClassDescription {
-            get {
-                return ResourceManager.GetString("AnalyzerClassDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Class &apos;{0}&apos; doesn&apos;t use Json Property Attributes on every property.
-        /// </summary>
-        internal static string AnalyzerClassMessageFormat {
-            get {
-                return ResourceManager.GetString("AnalyzerClassMessageFormat", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Not all Properties in a class doesn&apos;t use a Json Property Attribute.
-        /// </summary>
-        internal static string AnalyzerClassTitle {
-            get {
-                return ResourceManager.GetString("AnalyzerClassTitle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to All Properties should have Json Property Attributes..
-        /// </summary>
-        internal static string AnalyzerDescription {
-            get {
-                return ResourceManager.GetString("AnalyzerDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Property &apos;{0}&apos; doesn&apos;t use a Json Property Attribute.
-        /// </summary>
-        internal static string AnalyzerMessageFormat {
-            get {
-                return ResourceManager.GetString("AnalyzerMessageFormat", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Property doesn&apos;t use a Json Property Attribute.
-        /// </summary>
-        internal static string AnalyzerTitle {
-            get {
-                return ResourceManager.GetString("AnalyzerTitle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Add JsonPropertyAttributes to all properties in class..
         /// </summary>
         internal static string NewtonsoftJsonClassDescription {

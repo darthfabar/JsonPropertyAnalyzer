@@ -8,5 +8,7 @@ namespace JsonPropertyAnalyzer.Definitions
         string AttributeName { get; }
         string AttributeDisplayName { get; }
         string? ParameterName { get; }
+
+        bool HasParameter { get; }
     }
 }

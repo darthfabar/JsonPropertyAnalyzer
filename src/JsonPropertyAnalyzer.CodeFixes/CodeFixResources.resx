@@ -125,4 +125,22 @@
     <value>Add JsonPropertyNameAttributes to class</value>
     <comment>The title of the code fix.</comment>
   </data>
+  <data name="NewtonsoftJsonClassCodeFixTitle" xml:space="preserve">
+    <value>Add JsonPropertyAttributes to all properties in class</value>
+  </data>
+  <data name="NewtonsoftJsonIgnoreCodeFixTitle" xml:space="preserve">
+    <value>Add JsonIgnore to property (Newtonsoft)</value>
+  </data>
+  <data name="NewtonsoftJsonPropertyCodeFixTitle" xml:space="preserve">
+    <value>Add JsonPropertyAttribute to property</value>
+  </data>
+  <data name="SystemTextJsonClassCodeFixTitle" xml:space="preserve">
+    <value>Add JsonPropertyNameAttributes to all properties in class</value>
+  </data>
+  <data name="SystemTextJsonIgnoreCodeFixTitle" xml:space="preserve">
+    <value>Add JsonIgnore to property (System.Text.Json)</value>
+  </data>
+  <data name="SystemTextJsonPropertyCodeFixTitle" xml:space="preserve">
+    <value>Add JsonPropertyNameAttribute to property</value>
+  </data>
 </root>

@@ -117,30 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AnalyzerClassDescription" xml:space="preserve">
-    <value>All Properties in class should have Json Property Attributes.</value>
-    <comment>An optional longer localizable description of the diagnostic.</comment>
-  </data>
-  <data name="AnalyzerClassMessageFormat" xml:space="preserve">
-    <value>Class '{0}' doesn't use Json Property Attributes on every property</value>
-    <comment>The format-able message the diagnostic displays.</comment>
-  </data>
-  <data name="AnalyzerClassTitle" xml:space="preserve">
-    <value>Not all Properties in a class doesn't use a Json Property Attribute</value>
-    <comment>The title of the diagnostic.</comment>
-  </data>
-  <data name="AnalyzerDescription" xml:space="preserve">
-    <value>All Properties should have Json Property Attributes.</value>
-    <comment>An optional longer localizable description of the diagnostic.</comment>
-  </data>
-  <data name="AnalyzerMessageFormat" xml:space="preserve">
-    <value>Property '{0}' doesn't use a Json Property Attribute</value>
-    <comment>The format-able message the diagnostic displays.</comment>
-  </data>
-  <data name="AnalyzerTitle" xml:space="preserve">
-    <value>Property doesn't use a Json Property Attribute</value>
-    <comment>The title of the diagnostic.</comment>
-  </data>
   <data name="SystemTextJsonClassDescription" xml:space="preserve">
     <value>Add JsonPropertyNameAttributes to all properties in class.</value>
   </data>

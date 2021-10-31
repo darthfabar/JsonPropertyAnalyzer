@@ -12,5 +12,7 @@ namespace JsonPropertyAnalyzer.Definitions.SystemTextJson
         public string AttributeName => "JsonPropertyNameAttribute";
         public string AttributeDisplayName => "JsonPropertyName";
         public string? ParameterName => "name";
+
+        public bool HasParameter => true;
     }
 }

@@ -11,5 +11,6 @@ namespace JsonPropertyAnalyzer.Definitions.Newtonsoft
         public string? ParameterName => "propertyName";
 
         public string AttributeDisplayName => "JsonProperty";
+        public bool HasParameter => true;
     }
 }
