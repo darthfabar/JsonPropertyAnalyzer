@@ -6,8 +6,10 @@ namespace JsonPropertyAnalyzer.Definitions.Newtonsoft
     {
         public string Namespace => "Newtonsoft.Json";
 
-        public string AttributeName => "JsonProperty";
+        public string AttributeName => "JsonPropertyAttribute";
 
         public string? ParameterName => "propertyName";
+
+        public string AttributeDisplayName => "JsonProperty";
     }
 }

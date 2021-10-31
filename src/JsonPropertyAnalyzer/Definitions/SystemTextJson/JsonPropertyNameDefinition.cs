@@ -9,8 +9,8 @@ namespace JsonPropertyAnalyzer.Definitions.SystemTextJson
     {
         public string Namespace => "System.Text.Json.Serialization";
 
-        public string AttributeName => "JsonPropertyName";
-
+        public string AttributeName => "JsonPropertyNameAttribute";
+        public string AttributeDisplayName => "JsonPropertyName";
         public string? ParameterName => "name";
     }
 }

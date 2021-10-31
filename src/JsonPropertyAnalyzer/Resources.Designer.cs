@@ -113,5 +113,167 @@ namespace JsonPropertyAnalyzer {
                 return ResourceManager.GetString("AnalyzerTitle", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add JsonPropertyAttributes to all properties in class.
+        /// </summary>
+        internal static string NewtonsoftJsonClassDescription {
+            get {
+                return ResourceManager.GetString("NewtonsoftJsonClassDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Class &apos;{0}&apos; doesn&apos;t use JsonPropertyAttributes on every property.
+        /// </summary>
+        internal static string NewtonsoftJsonClassMessageFormat {
+            get {
+                return ResourceManager.GetString("NewtonsoftJsonClassMessageFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Not all Properties in a class have a JsonPropertyAttribute.
+        /// </summary>
+        internal static string NewtonsoftJsonClassTitle {
+            get {
+                return ResourceManager.GetString("NewtonsoftJsonClassTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add JsonIgnore to property (Newtonsoft.Json).
+        /// </summary>
+        internal static string NewtonsoftJsonIgnoreDescription {
+            get {
+                return ResourceManager.GetString("NewtonsoftJsonIgnoreDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Property &apos;{0}&apos; doesn&apos;t use a JsonIgnoreAttribute.
+        /// </summary>
+        internal static string NewtonsoftJsonIgnoreMessageFormat {
+            get {
+                return ResourceManager.GetString("NewtonsoftJsonIgnoreMessageFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add JsonIgnoreAttribute to property (Newtonsoft.Json)..
+        /// </summary>
+        internal static string NewtonsoftJsonIgnoreTitle {
+            get {
+                return ResourceManager.GetString("NewtonsoftJsonIgnoreTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A property should have JsonPropertyAttribute.
+        /// </summary>
+        internal static string NewtonsoftJsonPropertyNameDescription {
+            get {
+                return ResourceManager.GetString("NewtonsoftJsonPropertyNameDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Property &apos;{0}&apos; doesn&apos;t use a JsonPropertyAttribute.
+        /// </summary>
+        internal static string NewtonsoftJsonPropertyNameMessageFormat {
+            get {
+                return ResourceManager.GetString("NewtonsoftJsonPropertyNameMessageFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add JsonPropertyAttribute to property.
+        /// </summary>
+        internal static string NewtonsoftJsonPropertyNameTitle {
+            get {
+                return ResourceManager.GetString("NewtonsoftJsonPropertyNameTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add JsonPropertyNameAttributes to all properties in class.
+        /// </summary>
+        internal static string SystemTextJsonClassDescription {
+            get {
+                return ResourceManager.GetString("SystemTextJsonClassDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Class &apos;{0}&apos; doesn&apos;t use JsonPropertyNameAttributes on every property.
+        /// </summary>
+        internal static string SystemTextJsonClassMessageFormat {
+            get {
+                return ResourceManager.GetString("SystemTextJsonClassMessageFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Not all Properties in a class have a JsonPropertyNameAttribute.
+        /// </summary>
+        internal static string SystemTextJsonClassTitle {
+            get {
+                return ResourceManager.GetString("SystemTextJsonClassTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add JsonIgnore to property.
+        /// </summary>
+        internal static string SystemTextJsonIgnoreDescription {
+            get {
+                return ResourceManager.GetString("SystemTextJsonIgnoreDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Property &apos;{0}&apos; doesn&apos;t use a JsonIgnoreAttribute.
+        /// </summary>
+        internal static string SystemTextJsonIgnoreMessageFormat {
+            get {
+                return ResourceManager.GetString("SystemTextJsonIgnoreMessageFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add JsonIgnoreAttribute to property (System.Text.Json)..
+        /// </summary>
+        internal static string SystemTextJsonIgnoreTitle {
+            get {
+                return ResourceManager.GetString("SystemTextJsonIgnoreTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A property should have JsonPropertyNameAttribute.
+        /// </summary>
+        internal static string SystemTextJsonPropertyNameDescription {
+            get {
+                return ResourceManager.GetString("SystemTextJsonPropertyNameDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Property &apos;{0}&apos; doesn&apos;t use a JsonPropertyNameAttribute.
+        /// </summary>
+        internal static string SystemTextJsonPropertyNameMessageFormat {
+            get {
+                return ResourceManager.GetString("SystemTextJsonPropertyNameMessageFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add JsonPropertyNameAttribute to property.
+        /// </summary>
+        internal static string SystemTextJsonPropertyNameTitle {
+            get {
+                return ResourceManager.GetString("SystemTextJsonPropertyNameTitle", resourceCulture);
+            }
+        }
     }
 }

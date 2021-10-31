@@ -6,8 +6,10 @@ namespace JsonPropertyAnalyzer.Definitions.SystemTextJson
     {
         public string Namespace => "System.Text.Json.Serialization";
 
-        public string AttributeName => "JsonIgnore";
+        public string AttributeName => "JsonIgnoreAttribute";
 
         public string? ParameterName => null;
+
+        public string AttributeDisplayName => "JsonIgnore";
     }
 }

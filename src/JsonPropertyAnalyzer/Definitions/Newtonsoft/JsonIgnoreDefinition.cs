@@ -6,8 +6,10 @@ namespace JsonPropertyAnalyzer.Definitions.Newtonsoft
     {
         public string Namespace => "Newtonsoft.Json";
 
-        public string AttributeName => "JsonIgnore";
+        public string AttributeName => "JsonIgnoreAttribute";
 
         public string? ParameterName => null;
+
+        public string AttributeDisplayName => "JsonIgnore";
     }
 }

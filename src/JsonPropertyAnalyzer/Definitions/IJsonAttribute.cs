@@ -2,10 +2,11 @@
 
 namespace JsonPropertyAnalyzer.Definitions
 {
-    internal interface IJsonAttribute
+    public interface IJsonAttribute
     {
         string Namespace { get; }
         string AttributeName { get; }
+        string AttributeDisplayName { get; }
         string? ParameterName { get; }
     }
 }
