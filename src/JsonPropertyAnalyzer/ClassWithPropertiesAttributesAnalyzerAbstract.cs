@@ -7,6 +7,8 @@ namespace JsonPropertyAnalyzer
 {
     public abstract class ClassWithPropertiesAttributesAnalyzerAbstract : DiagnosticAnalyzer
     {
+        protected const string Category = "Naming";
+
         public override void Initialize(AnalysisContext context)
         {
             context.ConfigureGeneratedCodeAnalysis(GeneratedCodeAnalysisFlags.None);
@@ -14,7 +16,7 @@ namespace JsonPropertyAnalyzer
             context.RegisterSymbolAction(AnalyzeSymbol, SymbolKind.NamedType);
         }
 
-        private void AnalyzeSymbol(SymbolAnalysisContext context)
+        protected void AnalyzeSymbol(SymbolAnalysisContext context)
         {
             var namedTypeSymbol = (INamedTypeSymbol)context.Symbol;
             var attributes = context.Symbol.GetAttributes();
@@ -29,7 +31,7 @@ namespace JsonPropertyAnalyzer
             {
                 var hasJsonPropertyAttribute = property.GetAttributes().Any(w => w.AttributeClass.Name == PropertyNameAttribute.AttributeName);
                 var hasJsonIgnoreAttribute = property.GetAttributes().Any(w => w.AttributeClass.Name == IgnoreAttribute.AttributeName);
-                
+
                 if (hasJsonPropertyAttribute || hasJsonIgnoreAttribute) continue;
                 hasMissingAttributes = true;
 

@@ -2,7 +2,7 @@
 
 namespace JsonPropertyAnalyzer.Definitions.Newtonsoft
 {
-    public class JsonPropertDefinition : IJsonAttribute
+    public class JsonPropertyDefinition : IJsonAttribute
     {
         public string Namespace => "Newtonsoft.Json";
 

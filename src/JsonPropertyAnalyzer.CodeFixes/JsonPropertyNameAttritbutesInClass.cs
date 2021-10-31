@@ -17,7 +17,7 @@ namespace JsonPropertyAnalyzer.CodeFixes
     {
         public sealed override ImmutableArray<string> FixableDiagnosticIds
         {
-            get { return ImmutableArray.Create(ClassWithPropertiesAttributesAnalyzer.ClassWithPropertiesDiagnosticId); }
+            get { return ImmutableArray.Create(SystemTextJsonPropertyAnalyzer.ClassWithPropertiesDiagnosticId); }
         }
 
         public sealed override FixAllProvider GetFixAllProvider()

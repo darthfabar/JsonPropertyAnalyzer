@@ -16,7 +16,7 @@ namespace JsonPropertyAnalyzer.CodeFixes
     {
         public sealed override ImmutableArray<string> FixableDiagnosticIds
         {
-            get { return ImmutableArray.Create(ClassWithPropertiesAttributesAnalyzer.DiagnosticId); }
+            get { return ImmutableArray.Create(SystemTextJsonPropertyAnalyzer.PropertyNameDiagnosticId); }
         }
 
         public sealed override FixAllProvider GetFixAllProvider()
@@ -53,7 +53,7 @@ namespace JsonPropertyAnalyzer.CodeFixes
         {
             var name = SyntaxFactory.ParseName("JsonPropertyName");
             var arguments = SyntaxFactory.ParseAttributeArgumentList($"(\"{jsonPropertyNameText}\")");
-            var attribute = SyntaxFactory.Attribute(name, arguments); 
+            var attribute = SyntaxFactory.Attribute(name, arguments);
 
             var attributeList = new SeparatedSyntaxList<AttributeSyntax>();
             attributeList = attributeList.Add(attribute);

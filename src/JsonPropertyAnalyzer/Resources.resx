@@ -142,7 +142,7 @@
     <comment>The title of the diagnostic.</comment>
   </data>
   <data name="SystemTextJsonClassDescription" xml:space="preserve">
-    <value>Add JsonPropertyNameAttributes to all properties in class</value>
+    <value>Add JsonPropertyNameAttributes to all properties in class.</value>
   </data>
   <data name="SystemTextJsonClassMessageFormat" xml:space="preserve">
     <value>Class '{0}' doesn't use JsonPropertyNameAttributes on every property</value>
@@ -151,16 +151,16 @@
     <value>Not all Properties in a class have a JsonPropertyNameAttribute</value>
   </data>
   <data name="SystemTextJsonIgnoreDescription" xml:space="preserve">
-    <value>Add JsonIgnore to property</value>
+    <value>Add JsonIgnore to property.</value>
   </data>
   <data name="SystemTextJsonIgnoreMessageFormat" xml:space="preserve">
     <value>Property '{0}' doesn't use a JsonIgnoreAttribute</value>
   </data>
   <data name="SystemTextJsonIgnoreTitle" xml:space="preserve">
-    <value>Add JsonIgnoreAttribute to property (System.Text.Json).</value>
+    <value>Add JsonIgnoreAttribute to property (System.Text.Json)</value>
   </data>
   <data name="SystemTextJsonPropertyNameDescription" xml:space="preserve">
-    <value>A property should have JsonPropertyNameAttribute</value>
+    <value>A property should have JsonPropertyNameAttribute.</value>
   </data>
   <data name="SystemTextJsonPropertyNameMessageFormat" xml:space="preserve">
     <value>Property '{0}' doesn't use a JsonPropertyNameAttribute</value>
@@ -169,7 +169,7 @@
     <value>Add JsonPropertyNameAttribute to property</value>
   </data>
   <data name="NewtonsoftJsonClassDescription" xml:space="preserve">
-    <value>Add JsonPropertyAttributes to all properties in class</value>
+    <value>Add JsonPropertyAttributes to all properties in class.</value>
   </data>
   <data name="NewtonsoftJsonClassMessageFormat" xml:space="preserve">
     <value>Class '{0}' doesn't use JsonPropertyAttributes on every property</value>
@@ -178,16 +178,16 @@
     <value>Not all Properties in a class have a JsonPropertyAttribute</value>
   </data>
   <data name="NewtonsoftJsonIgnoreDescription" xml:space="preserve">
-    <value>Add JsonIgnore to property (Newtonsoft.Json)</value>
+    <value>Add JsonIgnore to property (Newtonsoft.Json).</value>
   </data>
   <data name="NewtonsoftJsonIgnoreMessageFormat" xml:space="preserve">
     <value>Property '{0}' doesn't use a JsonIgnoreAttribute</value>
   </data>
   <data name="NewtonsoftJsonIgnoreTitle" xml:space="preserve">
-    <value>Add JsonIgnoreAttribute to property (Newtonsoft.Json).</value>
+    <value>Add JsonIgnoreAttribute to property (Newtonsoft.Json)</value>
   </data>
   <data name="NewtonsoftJsonPropertyNameDescription" xml:space="preserve">
-    <value>A property should have JsonPropertyAttribute</value>
+    <value>A property should have JsonPropertyAttribute.</value>
   </data>
   <data name="NewtonsoftJsonPropertyNameMessageFormat" xml:space="preserve">
     <value>Property '{0}' doesn't use a JsonPropertyAttribute</value>

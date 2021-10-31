@@ -115,7 +115,7 @@ namespace JsonPropertyAnalyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add JsonPropertyAttributes to all properties in class.
+        ///   Looks up a localized string similar to Add JsonPropertyAttributes to all properties in class..
         /// </summary>
         internal static string NewtonsoftJsonClassDescription {
             get {
@@ -142,7 +142,7 @@ namespace JsonPropertyAnalyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add JsonIgnore to property (Newtonsoft.Json).
+        ///   Looks up a localized string similar to Add JsonIgnore to property (Newtonsoft.Json)..
         /// </summary>
         internal static string NewtonsoftJsonIgnoreDescription {
             get {
@@ -160,7 +160,7 @@ namespace JsonPropertyAnalyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add JsonIgnoreAttribute to property (Newtonsoft.Json)..
+        ///   Looks up a localized string similar to Add JsonIgnoreAttribute to property (Newtonsoft.Json).
         /// </summary>
         internal static string NewtonsoftJsonIgnoreTitle {
             get {
@@ -169,7 +169,7 @@ namespace JsonPropertyAnalyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A property should have JsonPropertyAttribute.
+        ///   Looks up a localized string similar to A property should have JsonPropertyAttribute..
         /// </summary>
         internal static string NewtonsoftJsonPropertyNameDescription {
             get {
@@ -196,7 +196,7 @@ namespace JsonPropertyAnalyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add JsonPropertyNameAttributes to all properties in class.
+        ///   Looks up a localized string similar to Add JsonPropertyNameAttributes to all properties in class..
         /// </summary>
         internal static string SystemTextJsonClassDescription {
             get {
@@ -223,7 +223,7 @@ namespace JsonPropertyAnalyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add JsonIgnore to property.
+        ///   Looks up a localized string similar to Add JsonIgnore to property..
         /// </summary>
         internal static string SystemTextJsonIgnoreDescription {
             get {
@@ -241,7 +241,7 @@ namespace JsonPropertyAnalyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add JsonIgnoreAttribute to property (System.Text.Json)..
+        ///   Looks up a localized string similar to Add JsonIgnoreAttribute to property (System.Text.Json).
         /// </summary>
         internal static string SystemTextJsonIgnoreTitle {
             get {
@@ -250,7 +250,7 @@ namespace JsonPropertyAnalyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A property should have JsonPropertyNameAttribute.
+        ///   Looks up a localized string similar to A property should have JsonPropertyNameAttribute..
         /// </summary>
         internal static string SystemTextJsonPropertyNameDescription {
             get {
