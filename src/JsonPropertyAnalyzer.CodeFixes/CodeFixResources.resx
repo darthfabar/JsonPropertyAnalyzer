@@ -117,30 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CodeFixTitle" xml:space="preserve">
-    <value>Add JsonPropertyNameAttribute to property</value>
-    <comment>The title of the code fix.</comment>
-  </data>
-  <data name="CodeFixTitleClass" xml:space="preserve">
-    <value>Add JsonPropertyNameAttributes to class</value>
-    <comment>The title of the code fix.</comment>
-  </data>
   <data name="NewtonsoftJsonClassCodeFixTitle" xml:space="preserve">
-    <value>Add JsonPropertyAttributes to all properties in class</value>
+    <value>Add JsonPropertyAttributes to all properties in class (Newtonsoft)</value>
   </data>
   <data name="NewtonsoftJsonIgnoreCodeFixTitle" xml:space="preserve">
     <value>Add JsonIgnore to property (Newtonsoft)</value>
   </data>
   <data name="NewtonsoftJsonPropertyCodeFixTitle" xml:space="preserve">
-    <value>Add JsonPropertyAttribute to property</value>
+    <value>Add JsonPropertyAttribute to property (Newtonsoft)</value>
   </data>
   <data name="SystemTextJsonClassCodeFixTitle" xml:space="preserve">
-    <value>Add JsonPropertyNameAttributes to all properties in class</value>
+    <value>Add JsonPropertyNameAttributes to all properties in class (System.Text.Json)</value>
   </data>
   <data name="SystemTextJsonIgnoreCodeFixTitle" xml:space="preserve">
     <value>Add JsonIgnore to property (System.Text.Json)</value>
   </data>
   <data name="SystemTextJsonPropertyCodeFixTitle" xml:space="preserve">
-    <value>Add JsonPropertyNameAttribute to property</value>
+    <value>Add JsonPropertyNameAttribute to property (System.Text.Json)</value>
   </data>
 </root>

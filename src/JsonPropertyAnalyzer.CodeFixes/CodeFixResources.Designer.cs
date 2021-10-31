@@ -61,25 +61,7 @@ namespace JsonPropertyAnalyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add JsonPropertyNameAttribute to property.
-        /// </summary>
-        internal static string CodeFixTitle {
-            get {
-                return ResourceManager.GetString("CodeFixTitle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Add JsonPropertyNameAttributes to class.
-        /// </summary>
-        internal static string CodeFixTitleClass {
-            get {
-                return ResourceManager.GetString("CodeFixTitleClass", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Add JsonPropertyAttributes to all properties in class.
+        ///   Looks up a localized string similar to Add JsonPropertyAttributes to all properties in class (Newtonsoft).
         /// </summary>
         internal static string NewtonsoftJsonClassCodeFixTitle {
             get {
@@ -97,7 +79,7 @@ namespace JsonPropertyAnalyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add JsonPropertyAttribute to property.
+        ///   Looks up a localized string similar to Add JsonPropertyAttribute to property (Newtonsoft).
         /// </summary>
         internal static string NewtonsoftJsonPropertyCodeFixTitle {
             get {
@@ -106,7 +88,7 @@ namespace JsonPropertyAnalyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add JsonPropertyNameAttributes to all properties in class.
+        ///   Looks up a localized string similar to Add JsonPropertyNameAttributes to all properties in class (System.Text.Json).
         /// </summary>
         internal static string SystemTextJsonClassCodeFixTitle {
             get {
@@ -124,7 +106,7 @@ namespace JsonPropertyAnalyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add JsonPropertyNameAttribute to property.
+        ///   Looks up a localized string similar to Add JsonPropertyNameAttribute to property (System.Text.Json).
         /// </summary>
         internal static string SystemTextJsonPropertyCodeFixTitle {
             get {
