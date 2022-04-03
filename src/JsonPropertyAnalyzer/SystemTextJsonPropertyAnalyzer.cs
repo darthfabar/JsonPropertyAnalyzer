@@ -9,9 +9,9 @@ namespace JsonPropertyAnalyzer
     [DiagnosticAnalyzer(LanguageNames.CSharp)]
     public class SystemTextJsonPropertyAnalyzer : ClassWithPropertiesAttributesAnalyzerAbstract
     {
-        public const string PropertyNameDiagnosticId = "PropertiesWithMissingJsonPropertyName";
-        public const string IgnoreDiagnosticId = "PropertiesWithMissingJsonIgnore";
-        public const string ClassWithPropertiesDiagnosticId = "ClassWithMissingPropertiesAttributes";
+        public const string PropertyNameDiagnosticId = "JS01";
+        public const string IgnoreDiagnosticId = "JS02";
+        public const string ClassWithPropertiesDiagnosticId = "JS03";
 
 
         private static readonly LocalizableString TitlePropertyName = new LocalizableResourceString(nameof(Resources.SystemTextJsonPropertyNameTitle), Resources.ResourceManager, typeof(Resources));

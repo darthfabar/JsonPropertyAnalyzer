@@ -9,9 +9,9 @@ namespace JsonPropertyAnalyzer
     [DiagnosticAnalyzer(LanguageNames.CSharp)]
     public class NewtonsoftJsonPropertyAnalyzer : ClassWithPropertiesAttributesAnalyzerAbstract
     {
-        public const string PropertyNameDiagnosticId = "PropertiesWithMissingJsonProperty";
-        public const string IgnoreDiagnosticId = "PropertiesWithMissingNewtonsoftJsonIgnore";
-        public const string ClassWithPropertiesDiagnosticId = "ClassWithMissingNewtonsoftJsonPropertiesAttributes";
+        public const string PropertyNameDiagnosticId = "JN01";
+        public const string IgnoreDiagnosticId = "JN02";
+        public const string ClassWithPropertiesDiagnosticId = "JN03";
 
 
         private static readonly LocalizableString TitlePropertyName = new LocalizableResourceString(nameof(Resources.NewtonsoftJsonPropertyNameTitle), Resources.ResourceManager, typeof(Resources));

@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.CodeAnalysis;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading.Tasks;
 using VerifyCS = JsonPropertyAnalyzer.Test.CSharpCodeFixVerifier<
     JsonPropertyAnalyzer.SystemTextJsonPropertyAnalyzer,
@@ -55,8 +56,7 @@ namespace JsonPropertyAnalyzer.Test
             public int Property2 {get;set;}
         }
     }";
-
-            var expected = VerifyCS.Diagnostic("JsonPropertyAnalyzer").WithLocation(0).WithArguments("TypeName");
+            var expected = VerifyCS.Diagnostic(SystemTextJsonPropertyAnalyzer.PropertyNameDiagnosticId).WithLocation(0).WithArguments("TypeName");
             await VerifyCS.VerifyCodeFixAsync(test, expected, fixtest);
         }
 
@@ -98,8 +98,8 @@ namespace JsonPropertyAnalyzer.Test
             public int Property2 {get;set;}
         }
     }";
-
-            var expected = VerifyCS.Diagnostic("JsonPropertyAnalyzer").WithLocation(0).WithArguments("TypeName");
+            var a = VerifyCS.Diagnostic();
+            var expected = VerifyCS.Diagnostic(NewtonsoftJsonPropertyAnalyzer.PropertyNameDiagnosticId).WithLocation(0).WithArguments("TypeName");
             await VerifyCS.VerifyCodeFixAsync(test, expected, fixtest);
         }
     }
