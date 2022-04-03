@@ -5,9 +5,10 @@
     <DisplayName>Json-Attribute Codefixes</DisplayName>
     <Description xml:space="preserve">CodeFix suggestions to add JsonPropertyName and JsonIgnore attributes for both Newtonsoft.Json and System.Text.Json.</Description>
     <MoreInfo>https://github.com/darthfabar/JsonPropertyAnalyzer</MoreInfo>
-    <Tags>C#, JSON, Newtonsoft.Json, System.Text.Json</Tags>
-    <!--<License>LICENSE.txt</License>-->
-    <!--<Icon>Icon.png</Icon>-->
+    <License>LICENSE.txt</License>
+    <ReleaseNotes>ReleaseNotes.md</ReleaseNotes>    
+    <Icon>Icon.png</Icon>
+    <Tags>C#, JSON, Newtonsoft.Json, System.Text.Json</Tags>    
   </Metadata>
   <Installation>
     <InstallationTarget Version="[15.0,18.0)" Id="Microsoft.VisualStudio.Community">
