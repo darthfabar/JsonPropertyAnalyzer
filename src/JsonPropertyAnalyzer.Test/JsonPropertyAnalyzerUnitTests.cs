@@ -19,49 +19,93 @@ namespace JsonPropertyAnalyzer.Test
             await VerifyCS.VerifyAnalyzerAsync(test);
         }
 
-        //Diagnostic and CodeFix both triggered and checked for
-        [TestMethod]
-        public async Task TestMethod2()
-        {
-            var test = @"
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-    using System.Diagnostics;
+        // TODO add proper unit tests
+        /*
+                //Diagnostic and CodeFix both triggered and checked for
+                [TestMethod]
+                public async Task TestMethod2()
+                {
+                    var test = @"
+            using System;
+            using System.Collections.Generic;
+            using System.Linq;
+            using System.Text;
+            using System.Threading.Tasks;
+            using System.Diagnostics;
 
-    namespace ConsoleApplication1
-    {
-        class {|#0:TypeName|}
-        {   
-            public int Property1 {get;set;}
-            public int Property2 {get;set;}
-        }
-    }";
+            namespace ConsoleApplication1
+            {
+                class {|#0:TypeName|}
+                {   
+                    public int Property1 {get;set;}
+                    public int Property2 {get;set;}
+                }
+            }";
 
-            var fixtest = @"
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-    using System.Diagnostics;
+                    var fixtest = @"
+            using System;
+            using System.Collections.Generic;
+            using System.Linq;
+            using System.Text;
+            using System.Threading.Tasks;
+            using System.Diagnostics;
 
-    namespace ConsoleApplication1
-    {
-        class TYPENAME
-        {   
-            public int Property1 {get;set;}
-            public int Property2 {get;set;}
-        }
-    }";
-            var expected = VerifyCS.Diagnostic(SystemTextJsonPropertyAnalyzer.PropertyNameDiagnosticId).WithLocation(0).WithArguments("TypeName");
-            await VerifyCS.VerifyCodeFixAsync(test, expected, fixtest);
-        }
+            namespace ConsoleApplication1
+            {
+                class TYPENAME
+                {   
+                    public int Property1 {get;set;}
+                    public int Property2 {get;set;}
+                }
+            }";
+                    var expected = VerifyCS.Diagnostic(SystemTextJsonPropertyAnalyzer.PropertyNameDiagnosticId).WithLocation(0).WithArguments("TypeName");
+                    await VerifyCS.VerifyCodeFixAsync(test, expected, fixtest);
+                }
 
 
-        //Diagnostic and CodeFix both triggered and checked for
+                //Diagnostic and CodeFix both triggered and checked for
+                [TestMethod]
+                public async Task TestMethod3()
+                {
+                    var test = @"
+            using System;
+            using System.Collections.Generic;
+            using System.Linq;
+            using System.Text;
+            using System.Threading.Tasks;
+            using System.Diagnostics;
+
+            namespace ConsoleApplication1
+            {
+                class {|#0:TypeName|}
+                {   
+                    public int Property1 {get;set;}
+                    public int Property2 {get;set;}
+                }
+            }";
+
+                    var fixtest = @"
+            using System;
+            using System.Collections.Generic;
+            using System.Linq;
+            using System.Text;
+            using System.Threading.Tasks;
+            using System.Diagnostics;
+
+            namespace ConsoleApplication1
+            {
+                class TYPENAME
+                {   
+                    public int Property1 {get;set;}
+                    public int Property2 {get;set;}
+                }
+            }";
+                    var ab = new DiagnosticDescriptor(NewtonsoftJsonPropertyAnalyzer.PropertyNameDiagnosticId, string.Empty, string.Empty, string.Empty, DiagnosticSeverity.Info, true);
+                    //var a = VerifyCS.Diagnostic();
+                    var expected = VerifyCS.Diagnostic(ab).WithLocation(0).WithArguments("TypeName");
+                    await VerifyCS.VerifyCodeFixAsync(test, expected, fixtest);
+                }
+        
         [TestMethod]
         public async Task TestMethod3()
         {
@@ -82,26 +126,20 @@ namespace JsonPropertyAnalyzer.Test
         }
     }";
 
-            var fixtest = @"
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-    using System.Diagnostics;
+            var ab = new DiagnosticDescriptor(NewtonsoftJsonPropertyAnalyzer.PropertyNameDiagnosticId, string.Empty, string.Empty, string.Empty, DiagnosticSeverity.Info, true);
 
-    namespace ConsoleApplication1
-    {
-        class TYPENAME
-        {   
-            public int Property1 {get;set;}
-            public int Property2 {get;set;}
-        }
-    }";
-            var a = VerifyCS.Diagnostic();
-            var expected = VerifyCS.Diagnostic(NewtonsoftJsonPropertyAnalyzer.PropertyNameDiagnosticId).WithLocation(0).WithArguments("TypeName");
-            await VerifyCS.VerifyCodeFixAsync(test, expected, fixtest);
-        }
+            await VerifyCS.VerifyAnalyzerAsync(test, 
+                new Microsoft.CodeAnalysis.Testing.DiagnosticResult(SystemTextJsonPropertyAnalyzer.PropertyNameDiagnosticId, DiagnosticSeverity.Info),
+                new Microsoft.CodeAnalysis.Testing.DiagnosticResult(SystemTextJsonPropertyAnalyzer.IgnoreDiagnosticId, DiagnosticSeverity.Info),
+                new Microsoft.CodeAnalysis.Testing.DiagnosticResult(SystemTextJsonPropertyAnalyzer.PropertyNameDiagnosticId, DiagnosticSeverity.Info),
+                new Microsoft.CodeAnalysis.Testing.DiagnosticResult(SystemTextJsonPropertyAnalyzer.IgnoreDiagnosticId, DiagnosticSeverity.Info),
+                new Microsoft.CodeAnalysis.Testing.DiagnosticResult(SystemTextJsonPropertyAnalyzer.ClassWithPropertiesDiagnosticId, DiagnosticSeverity.Info))
+                ;
+            //var a = VerifyCS.Diagnostic();
+            //var expected = VerifyCS.Diagnostic(ab).WithLocation(0).WithArguments("TypeName");
+            //await VerifyCS.VerifyCodeFixAsync(test, expected, fixtest);
+        }*/
+
     }
 
 }

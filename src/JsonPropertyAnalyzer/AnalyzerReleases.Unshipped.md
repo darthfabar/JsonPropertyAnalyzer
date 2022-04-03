@@ -5,9 +5,9 @@
 
 Rule ID | Category | Severity | Notes
 --------|----------|----------|-------
-JN01 | Naming | Info | NewtonsoftJsonPropertyAnalyzer
-JN02 | Naming | Info | NewtonsoftJsonPropertyAnalyzer
-JN03 | Naming | Info | NewtonsoftJsonPropertyAnalyzer
-JS01 | Naming | Info | SystemTextJsonPropertyAnalyzer
-JS02 | Naming | Info | SystemTextJsonPropertyAnalyzer
-JS03 | Naming | Info | SystemTextJsonPropertyAnalyzer
+JN01 | Naming | Info | Property is missing JsonPropertyNameAttribute (Newtonsoft.Json)
+JN02 | Naming | Info | Property is missing JsonIgnoreAttribute (Newtonsoft.Json)
+JN03 | Naming | Info | Class doesn't have JsonPropertyNameAttributes on all public properties (Newtonsoft.Json)
+JS01 | Naming | Info | Property is missing JsonPropertyNameAttribute (System.Text.Json
+JS02 | Naming | Info | Property is missing JsonIgnoreAttribute (System.Text.Json)
+JS03 | Naming | Info | Class doesn't have JsonPropertyNameAttributes on all public properties (System.Text.Json)
